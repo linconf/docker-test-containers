@@ -1,4 +1,4 @@
-# Debian 8 (Jessie) Ansible Test Image
+# Docker Containers for Ansible Testing
 
 [![Docker Automated Build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg?maxAge=2592000)](https://hub.docker.com/r/linconf/debian8/)
 
@@ -8,14 +8,13 @@ repository is updated or upstream OS distribution containers are rebuilt.
 
 Currently supports the following distributions:
 
-- CentOS 6.x
-- CentOS 7.x
-- Debian 7
-- Debian 8
-- Ubuntu 12.04
-- Ubuntu 14.04
-- Ubuntu 16.04
-- Ubuntu 16.10
+- [CentOS 6.x](https://github.com/linconf/docker-test-containers/tree/master/centos/6)
+- [CentOS 7.x](https://github.com/linconf/docker-test-containers/tree/master/centos/7)
+- [Debian 7](https://github.com/linconf/docker-test-containers/tree/master/debian/7)
+- [Debian 8](https://github.com/linconf/docker-test-containers/tree/master/debian/8)
+- [Ubuntu 12.04](https://github.com/linconf/docker-test-containers/tree/master/ubuntu/12.04)
+- [Ubuntu 14.04](https://github.com/linconf/docker-test-containers/tree/master/ubuntu/14.04)
+- [Ubuntu 16.04](https://github.com/linconf/docker-test-containers/tree/master/ubuntu/16.04)
 
 ## How to Use
 
