@@ -1,15 +1,15 @@
-# Debian 8 (Jessie) Ansible Test Container
+# Debian 7 (Wheezy) Ansible Test Container
 
-[![Docker Automated Build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg?maxAge=2592000)](https://hub.docker.com/r/linconf/debian8/)
+[![Docker Automated Build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg?maxAge=2592000)](https://hub.docker.com/r/linconf/debian7/)
 
 Debian 8 (Jessie) Docker container for Ansible playbook and role testing.
 
 ## How to Use
 
 1. Pull the image from Docker Hub
-  - `docker pull linconf/debian8:latest`
+  - `docker pull linconf/debian7:latest`
 2. Run a container from the image:
-  - `docker run --detach --privileged linconf/debian8:latest`
+  - `docker run --detach --privileged linconf/debian7:latest`
 
 ## How to Build Locally
 
@@ -18,4 +18,4 @@ Debian 8 (Jessie) Docker container for Ansible playbook and role testing.
   - `docker build -t <dockerfile-name> .`
 
 [![Analytics](https://cjs-beacon.appspot.com/UA-10006093-3/github/linconf/docker-debian8-ansible
-?pixel)](https://github.com/linconf/docker-test-containers/debian/8/)
+?pixel)](https://github.com/linconf/docker-test-containers/debian/7/)
